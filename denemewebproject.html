@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Örnek Proje Deneme</title>
+
+    <style>
+        body{
+            background: #131313;
+            color: #525252;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+        }
+        .sayfa{
+            width: 960px;
+            margin: auto;
+        }
+        #logo{
+            float: left;
+            width: 260px;
+            margin-top: 7px;
+            margin-left: 10px;
+        }
+        #logo h1{
+            margin: 0;
+            padding: 0;
+            font-size: 42px;
+            text-transform: uppercase;
+        }
+        #logo h1 a{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+            color: #dbdbdb;
+            letter-spacing: 3px;
+        }
+        #logo p{
+            color: #dbdbdb;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-left: 3px;
+            margin-top: 0;
+            padding-top: 0;
+            letter-spacing: 2px;
+        }
+        #menu {
+            float: right;
+            width: 650px;
+            margin: 30px 0 0 0;
+            padding: 0;
+            font-size: 13px;
+            text-align: right;
+        }
+        #menu ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #menu ul li{
+            display: inline;
+            margin-right: 35px;
+        }
+        #menu ul li a{
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #dbdbdb;
+        }
+        .orta{
+            margin-top: 20px;
+        }
+        .orta-sol{
+            width: 575px;
+            float: left;
+        }
+        .orta-sag{
+            width: 360px;
+            float: right;
+            height: 280px;
+            background: #fdc609;
+            padding: 10px;
+        }
+        .orta-sag img{
+            box-shadow: 10px 10px 10px gray;
+        }
+        .orta-resim{
+            margin: 0 25px;
+        }
+        .card{
+            width: 300px;
+            float: left;
+        }
+        .card{
+            margin-right: 30px;
+        }
+        .card:nth-child(3) {
+            margin: 0px;
+        }
+        .card h1{
+            border-bottom: 1px dotted white;
+            padding-bottom: 15px;
+        }
+        .button a{
+            display: inline-block;
+            padding: 10px 15px;
+            color: #fdc609;
+            background-color: #232323;
+            text-decoration: none;
+        }
+        .clear{
+            clear: both;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="sayfa">
+        <div class="ust">
+            <div id="logo">
+                <h1><a href="#"></a>Darkness</h1>
+                <p>
+                    HTML CSS Web Site Örnekleri
+                </p>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="#">Ürünler</a>
+                    </li>
+                    <li>
+                        <a href="#">Referanslar</a>
+                    </li>
+                    <li>
+                        <a href="#">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="#">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="orta">
+            <div class="orta-sol">
+                <img src="http://source.unsplash.com/575x300">
+            </div>
+            <div class="orta-sag">
+                <h1>Cursu penati saccum ut.</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eum dignissimos repellat enim et perferendis delectus a obcaecati itaque! Molestias doloremque libero vero deserunt, totam et quos atque sint harum nulla aut nisi voluptas officiis a!
+                </p>
+                <img src="http://source.unsplash.com/50x50">
+                <img class="orta-resim" src="http://source.unsplash.com/52x52">
+                <img src="http://source.unsplash.com/54x54">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="icerik">
+            <div class="card">
+                <h1>Ürün Açıklaması</h1>
+                <img src="http://source.unsplash.com/300x500">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus molestiae porro, quas consequatur delectus non, quis in dicta cum nobis corporis laudantium! Nobis sunt voluptatum magni natus molestias aliquam tempora, provident excepturi illo quis eveniet expedita nam veritatis voluptates assumenda repellendus. Consectetur quibusdam ratione reiciendis id nobis nisi similique.
+                </p>
+                <div class="button">
+                    <a href="">Daha Fazla </a>
+                </div>
+            </div>
+            <div class="card orta-card">
+                <h1>Ürün Açıklaması</h1>
+                <img src="http://source.unsplash.com/301x501">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum molestiae tempore voluptatem doloribus enim consectetur optio vel aliquam ab consequatur facere quis ratione temporibus rem rerum ducimus sed voluptate autem cum earum, omnis veniam numquam sunt. Qui a magnam, consectetur enim in rem eos earum nesciunt nisi sunt cum minus.
+                </p>
+                <div class="button">
+                    <a href="">Daha Fazla >></a>
+                </div>
+            </div>
+            <div class="icerik">
+                <h1>Ürün Açıklaması</h1>
+                <img src="http://source.unsplash.com/302x502">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta doloribus mollitia ex magni amet quas obcaecati quo, eveniet natus porro aliquid similique minima minus magnam facilis voluptatibus. Quia possimus nisi labore perspiciatis exercitationem ullam. Corporis sint praesentium fugit ea. Nam repellat incidunt, ex iure atque molestias quidem magni! Dignissimos, ab?
+                </p>
+                <div class="button">
+                    <a href="">Daha Fazla >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
